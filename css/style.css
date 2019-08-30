@@ -1,0 +1,55 @@
+#result {
+  display: none;
+}
+
+.container {
+  border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+
+#store {
+
+
+
+}
+
+
+<form id="pizza">
+<label for="FN"></label>
+<input id="FN" type="text">
+<button type="submit">Submit For Order</button>
+
+
+
+
+
+
+
+<form id="store">
+<label for="zipcode">ZipCode<label>
+  <input type="text" id="zipcode">
+  <button id="map" type="button">FIND A STORE</button><br>
+
+
+
+
+
+
+
+
+
+
+<!-- <form>
+            <legend>Test zip-lookup</legend>
+            <div>Enter ZipCode:</div>
+            <input type='text' name='zipcode' class='zip-lookup-field-zipcode' />
+            <div>Enter City:</div>
+            <input type='text' name='city' class='zip-lookup-field-city' />
+            <div>Enter State:</div>
+            <input type='text' name='state' class='zip-lookup-field-state' />
+            <input type='text' name='state-short' class='zip-lookup-field-state-short' />
+            <div class="zip-lookup-message info">Status</div>
+        </form> -->
