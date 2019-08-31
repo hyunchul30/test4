@@ -1,6 +1,4 @@
-#result {
-  display: none;
-}
+
 
 .container {
   border-radius: 5px;
@@ -10,8 +8,12 @@
 }
 
 
-#price {
+#total {
+style="display: block;"
 
+padding: 12px;
+front-weight:bold;
+background-color: #e39400;
 
 
 }
