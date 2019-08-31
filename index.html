@@ -16,41 +16,33 @@
 <form id="OrderPizza">
 
 <label for="size">SelectSize</label>
-  <select id="size" name="PizzaSize">
-   <option value="0">PizzaSize</option>
-   <option value="1">small</option>
+  <select id="SZ" name="pizza">
+   <option value="0">SelectSize</option>
+   <option value="1">Small</option>
    <option value="2">Medium</option>
    <option value="3">Large</option>
 </select>
 <lable for ="cheese">SelectCheese</lable>
-  <select id="cheese" name="Cheese">
+  <select id="CS" name="cheese">
     <option value="4">SelectCheese</option>
       <option value="5">Cheddar</option>
       <option value="6">ExtraCheese</option>
       <option value="7">Feta</option>
 
 </select>
-<label for="Toppings">SelectToppings</label>
-<select id="Toppings" name="Toppings">
-  <option value="8">SelectVeggies</option>
-  <option value="9">Black Olives</option>
-  <option value="10">Red Onion</option>
-  <option value="11">Fresh Tomatoes</option>
-  </select>
-    <select>
-  <label for="MeatsToppings">SelectMeats</label>
+  <label for="meats">SelectMeats</label>
+<select id="MT" name="meats">
+
   <option value="8">SelectMeats</option>
-  <option value="9">Italian Sausage</option>
+  <option value="9">Sausage</option>
   <option value="10">Bacon</option>
-  <option value="11">Ground Beef</option>
+  <option value="11">Beef</option>
   <option value="10">Pepperoni</option>
   </select>
 
 
-  <form id="store">
-  <label for="zipcode">ZipCode<label>
-    <input type="text" id="zipcode">
-    <button id="map" type="button">FIND A STORE</button><br>
+   <input type="button" onclick="total()" id="total">
+
 
 
 
