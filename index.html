@@ -16,36 +16,43 @@
 <form id="OrderPizza">
 
 <label for="size">SelectSize</label>
-  <select id="SZ" name="pizza">
-   <option value="0">SelectSize</option>
-   <option value="1">Small</option>
-   <option value="2">Medium</option>
-   <option value="3">Large</option>
+  <select id="SZ" name="pizza" onchange="calculateTotal()">
+   <option value="None">SelectSize</option>
+   <option value="Small">Small</option>
+   <option value="Medium">Medium</option>
+   <option value="Large">Large</option>
 </select>
 <lable for ="cheese">SelectCheese</lable>
-  <select id="CS" name="cheese">
-    <option value="4">SelectCheese</option>
-      <option value="5">Cheddar</option>
-      <option value="6">ExtraCheese</option>
-      <option value="7">Feta</option>
+  <select id="CS" name="cheese" onchange="calculateTotal()">
+    <option value="None">SelectCheese</option>
+      <option value="Cheddar">Cheddar</option>
+      <option value="ExtraCheese">ExtraCheese</option>
+      <option value="Feta">Feta</option>
 
 </select>
   <label for="meats">SelectMeats</label>
-<select id="MT" name="meats">
+<select id="MT" name="meats" onchange="calculateTotal()">
 
-  <option value="8">SelectMeats</option>
-  <option value="9">Sausage</option>
-  <option value="10">Bacon</option>
-  <option value="11">Beef</option>
-  <option value="10">Pepperoni</option>
+  <option value="None">SelectMeats</option>
+  <option value="Sausage">Sausage</option>
+  <option value="Bacon">Bacon</option>
+  <option value="Beef">Beef</option>
   </select>
 
+<div>
+<input id="submit" type="text" value="Submit" onclick="calculateTotal">
 
-   <input type="button" onclick="total()" id="total">
+</div>
+<div id="total" >Total Price</div>
+
+
+
+
+
 
 
 
 
 </form>
+</body>
 </div>
-<body>
