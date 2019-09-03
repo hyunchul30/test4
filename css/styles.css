@@ -7,10 +7,12 @@
 
 }
 
-
+#totalPrice {
+  padding: 10px;
+  front-weight:bold;
+  background-color: #e39400;
+}
 #total {
-style="display: block;"
-
 padding: 12px;
 front-weight:bold;
 background-color: #e39400;
